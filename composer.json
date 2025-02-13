@@ -1,0 +1,19 @@
+{
+    "name": "palash-wp-dev/random-quranic-verse",
+    "description": "This package will show random quranic verses in space of some time",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PalashWpDev\\RandomQuranicVerse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "palash-wp-dev",
+            "email": "palash.dev.1019@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
