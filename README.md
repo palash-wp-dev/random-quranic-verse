@@ -1,2 +1,23 @@
 # random-quranic-verse
-This is a composer package which you may use to show random quranic verses in every 10 minutes.
+A PHP package to fetch a random Quranic verse with its translation.
+
+## Installation
+
+Install via Composer:
+
+```bash
+composer require your-namespace/random-quranic-verse
+
+## Usage
+
+use RandomQuranicVerse\RandomQuranicVerse;
+
+// Create an instance
+$randomVerse = new RandomQuranicVerse();
+
+// Access the verse and reference
+echo "Verse: " . RandomQuranicVerse::$verse . PHP_EOL;
+echo "Reference: " . RandomQuranicVerse::$reference . PHP_EOL;
+
+
+
